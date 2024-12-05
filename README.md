@@ -18,9 +18,7 @@ Python 3.12 ó superior
 
 <p> Opcion manual: </p>
 
-> python3 -m pip install tk
-> python3 -m pip install ttkthemes
-> python3 -m pip install tkcalendar
+> python3 -m pip install tk ttkthemes tkcalendar
 
 <p> Opcion por entorno: </p>
 
