@@ -2,19 +2,17 @@
 
 Esta mini-app consiste en gestionar generos, autores y libros de forma ordenada, para presentar un listado informando si está disponible o no.
 
-## SETUP INICIAL
-
-### Requerimientos
+## Requerimientos
 
 Python 3.12 ó superior
 
-### Librerias necesarias
+## Librerias necesarias
 
 > tk
 > ttkthemes
 > tkcalendar
 
-### SETUP
+## Setup
 
 <p> Opcion manual: </p>
 
@@ -24,7 +22,7 @@ Python 3.12 ó superior
 
 > pip install -r requeriments.txt
 
-### INICIALIZAR
+## Inicialización
 
 <p>Iniciar con python el archivo main.py</p>
 
