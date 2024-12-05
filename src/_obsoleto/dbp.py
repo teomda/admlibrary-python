@@ -1,10 +1,26 @@
-# src/dbp.py
-
 import sqlite3
 
 def connect_db():
     db = sqlite3.connect('db/database.db')
     return db
+    
+def query(sql, params=()):
+    # la funcion mas jodida!!
+    dbc = connect_db()
+    qry = dbc.cursor()
+    try:
+        qry.execute(sql, params)
+        if sql.strip().upper().startswith("SELECT"):
+            return qry.fetchall()
+        else:
+            dbc.commit()
+    except sqlite3.Error as e:
+        print(f"Error en la consulta: {e}")
+        return None 
+    finally:
+        qry.close()
+        dbc.close()
+
 
 def setup_db():
     dbc = connect_db()
