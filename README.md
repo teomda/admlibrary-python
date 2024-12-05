@@ -8,17 +8,26 @@ Esta mini-app consiste en gestionar generos, autores y libros de forma ordenada,
 
 Python 3.12 ó superior
 
-### Instalaciones necesarias
+### Librerias necesarias
+
+> tk
+> ttkthemes
+> tkcalendar
+
+### SETUP
+
+<p> Opcion manual: </p>
 
 > python3 -m pip install tk
-
 > python3 -m pip install ttkthemes
-
 > python3 -m pip install tkcalendar
 
-### Posteriori al setup
+<p> Opcion por entorno: </p>
 
-<p>Iniciar el enviroment con el comando: </p>
+> pip install -r requeriments.txt
+
+### INICIALIZAR
+
 <p>Iniciar con python el archivo main.py</p>
 
 ## AUTOR

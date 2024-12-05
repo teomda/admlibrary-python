@@ -8,6 +8,5 @@ def add_author(nombre, nacionalidad, fecha_nacimiento):
 
 def get_authors():    
     sql = 'SELECT * FROM autores'
-    autores = query(sql)
-    return autores
-
+    authors = query(sql)
+    return authors

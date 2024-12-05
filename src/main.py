@@ -11,7 +11,7 @@ from gui.tab_books import configure_books_tab
 
 def main():
     setup_db()
-    window = ThemedTk(theme="aquativo")    
+    window = ThemedTk(theme="aquativo")
     window.title("Gestor de libros")
     window.geometry("600x550")
     window.tk.call("wm", "iconphoto", window._w, tk.PhotoImage(file="assets/favicon.png"))    
@@ -20,7 +20,7 @@ def main():
     create_menu(window)
     tabMain, tabBooks, tabAuthors, tabGenres = create_tabs(window)
         
-    inputBookGenre,inputBookAuthor = configure_books_tab(tabBooks)
+    inputBookGenre,inputBookAuthor = configure_books_tab(tabBooks) # Retorno los combos para poder usarlos en tabGenres y Authors que son principales
     configure_genres_tab(tabGenres, inputBookGenre)
     configure_authors_tab(tabAuthors,inputBookAuthor)
     
