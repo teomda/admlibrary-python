@@ -46,9 +46,9 @@ Esta mini-app consiste en gestionar generos, autores y libros de forma ordenada,
 
 ### Imagenes de muestra
 
-![Seccion1](./assets/seccionLibros.png)
-![Seccion2](./assets/seccionAutores.png)
-![Seccion3](./assets/seccionGeneros.png)
+![Seccion1](assets/seccionLibros.png) 
+![Seccion2](assets/seccionAutores.png)
+![Seccion3](assets/seccionGeneros.png)
 
 ## Autor / Agradecimientos
 
