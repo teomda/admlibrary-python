@@ -11,3 +11,5 @@ def get_genres():
     genres = query(sql)
     return genres
 
+def update_genre(idGenre, nombre, descripcion):
+    query("UPDATE generos SET nombre = ?, descripcion = ? WHERE id = ?", (nombre, descripcion, idGenre))

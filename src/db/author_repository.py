@@ -10,3 +10,7 @@ def get_authors():
     sql = 'SELECT * FROM autores'
     authors = query(sql)
     return authors
+
+def update_author(idAuthor, nombre, nacionalidad, fecha_nacimiento):
+    query("UPDATE autores SET nombre = ?, nacionalidad = ?, fecha_nacimiento = ? WHERE id = ?", 
+          (nombre, nacionalidad, fecha_nacimiento, idAuthor))
